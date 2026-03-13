@@ -10,8 +10,31 @@ import threading
 import numpy as np
 import cv2
 
-# OCR languages
-reader = easyocr.Reader(['ar','en'])
+# OCR languages:
+'''
+English	en
+Arabic	ar
+Persian (Farsi)	fa
+Swedish	sv
+Spanish	es
+French	fr
+German	de
+Italian	it
+Portuguese	pt
+Dutch	nl
+Danish	da
+Finnish	fi
+Norwegian	no
+Turkish	tr
+Russian	ru
+Chinese	zh
+Japanese	ja
+Korean	ko
+Hindi	hi
+Urdu	ur
+'''
+
+reader = easyocr.Reader(['ar','en','fa'])
 
 
 class FileConverterApp:
