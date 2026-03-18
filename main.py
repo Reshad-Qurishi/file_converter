@@ -33,6 +33,7 @@ Korean	ko
 Hindi	hi
 Urdu	ur
 '''
+#Posibility of selecting the language for the pdf to convert
 
 reader = easyocr.Reader(['ar','en','fa'])
 
